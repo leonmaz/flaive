@@ -1,0 +1,8 @@
+numpy
+torch
+prometheus-client
+requests
+mlflow
+pyyaml
+fastapi
+uvicorn[standard]

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+*.sock
+docker/mlflow/
+docker/prometheus/targets/clients.json
+
+# ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+
+# Data
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Logs
+logs/

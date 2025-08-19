@@ -1,0 +1,31 @@
+mode: sim
+rounds: 3
+
+clients:
+  total: 5
+  per_round: 5
+  local_epochs: 1
+  batch_size: 16
+  steps_max: 60
+  optimizer:
+    name: adamw # adamw | adam | sgd
+    lr: 0.002
+    weight_decay: 0.01
+    momentum: 0.9 # used only for sgd
+    betas: [0.9, 0.999] # used for adam/adamw
+
+aggregation:
+  name: fedavg # fedavg | fedprox
+  mu: 0.0 # FedProx proximal coef (client-side), e.g. 0.01
+
+model:
+  backend: "toy"
+  name: "toy-linear"
+
+monitoring:
+  pushgateway_url: "http://pushgateway:9091"
+  job_name: "edgefl"
+
+mlflow:
+  tracking_uri: "http://mlflow:5000"
+  experiment: "edgefl-sim"
