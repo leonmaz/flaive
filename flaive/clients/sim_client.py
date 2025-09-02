@@ -2,8 +2,8 @@ import time
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, TensorDataset
-from edgefl.monitoring.metrics import MetricsPusher
-from edgefl.utils.optim import build_optimizer
+from flaive.monitoring.metrics import MetricsPusher
+from flaive.utils.optim import build_optimizer
 
 class SimClient:
     def __init__(self, client_id: int, cfg):

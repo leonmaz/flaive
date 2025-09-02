@@ -1,8 +1,8 @@
 import random
 import mlflow
-from edgefl.models.loader import load_model
-from edgefl.clients.sim_client import SimClient
-from edgefl.server.aggregator import get_aggregator
+from flaive.models.loader import load_model
+from flaive.clients.sim_client import SimClient
+from flaive.server.aggregator import get_aggregator
 
 class SimServer:
     def __init__(self, cfg):
