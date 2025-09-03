@@ -1,7 +1,7 @@
 # flaive
 
 **flaive — Federated Learning for AI in Versatile Environments**  
-An open-source framework for **configurable, lightweight federated learning** on resource-constrained devices. Run fast simulations, track experiments with MLflow, and monitor training via Prometheus/Grafana. Built to evolve from **simulation → real edge deployments** with PEFT (LoRA) and quantization.
+An open-source framework for **configurable, lightweight federated learning** on resource-constrained devices. Run fast simulations, track experiments with MLflow, and monitor training via Prometheus/Grafana. Built to evolve from **simulation → real edge deployments** with PEFT techniques and quantization.
 
 ---
 
